@@ -1,11 +1,15 @@
 
 version: 0.2
-
+env:
+  parameter-store:
+    DOCKER_USER: dockerhub-user
+    DOCKER_TOKEN: dockerhub-token
 phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
       - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
+      - echo $DOCKER_TOKEN | docker login -u $DOCKER_USER --password-stdin
   build:
     commands:
       - echo Build jar file
