@@ -9,7 +9,7 @@ public class MainController {
 
     @GetMapping("/hello")
     public String index(Model model) {
-        model.addAttribute("modelValue", "Model Value!!");
+        model.addAttribute("modelValue", "Updated!!");
         return "hello";
     }
 }
