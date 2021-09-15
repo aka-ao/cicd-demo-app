@@ -1,0 +1,6 @@
+[
+  {
+    "name": "sample-app",
+    "imageUri": "181804339651.dkr.ecr.ap-northeast-1.amazonaws.com/spring-session-redis:latest"
+  }
+]
