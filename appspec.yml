@@ -1,7 +1,7 @@
 version: 0.0
 files:
   - srouce: appspec.yml
-    destination: /tmp
+    destination: ./
 Resources:
   - TargetService:
       Type: AWS::ECS::Service
