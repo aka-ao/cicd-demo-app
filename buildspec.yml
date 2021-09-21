@@ -28,5 +28,4 @@ phases:
 
 artifacts:
   files:
-    - artifacts.json
-    - appspec.yaml
+    - '**/*'
