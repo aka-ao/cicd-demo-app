@@ -28,4 +28,5 @@ phases:
 
 artifacts:
   files:
-      - appspec.yml
+    - artifacts.json
+    - appspec.yml
