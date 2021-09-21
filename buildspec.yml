@@ -30,4 +30,3 @@ artifacts:
   files:
     - artifacts.json
     - appspec.yml
-  name: artifacts.zip
