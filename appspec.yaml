@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-northeast-1:181804339651:task-definition/spring-session-redis:6"
+        TaskDefinition: "arn:aws:ecs:ap-northeast-1:181804339651:task-definition/spring-session-redis:15"
         LoadBalancerInfo:
           ContainerName: "spring-session-redis"
           ContainerPort: 8080
