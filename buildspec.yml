@@ -33,4 +33,3 @@ artifacts:
     − "appspec.yml"
     - "imagedefinitions.json"
     - "imageDetail.json"
-  discard-paths: yes
