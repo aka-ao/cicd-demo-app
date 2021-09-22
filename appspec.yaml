@@ -6,4 +6,4 @@ Resources:
         TaskDefinition: "<TASK_DEFINITION>"
         LoadBalancerInfo:
           ContainerName: "spring-session-redis"
-          ContainerPort: 8080
+          ContainerPort: "8080"
