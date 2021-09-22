@@ -30,4 +30,5 @@ phases:
       - ls -l
 artifacts:
   files:
-    − appspec.yml
+      − *.yml
+      - *.json
