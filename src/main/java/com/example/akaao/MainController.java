@@ -9,7 +9,7 @@ public class MainController {
 
     @GetMapping("/hello")
     public String index(Model model) {
-        model.addAttribute("modelValue", "2021/09/15 18:52");
+        model.addAttribute("modelValue", "2021/09/22 18:52");
         return "hello";
     }
 }
