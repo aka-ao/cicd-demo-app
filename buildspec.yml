@@ -30,6 +30,6 @@ phases:
 artifacts:
   files:
     − "appspec.yml"
-    - imagedefinitions.json
-    - imageDetail.json
+    - "imagedefinitions.json"
+    - "imageDetail.json"
   discard-paths: yes
