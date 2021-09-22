@@ -31,8 +31,4 @@ phases:
       - ls -l
 artifacts:
   files:
-    - "appspec.yaml"
-    - "artifacts.json"
-    - "imagedefinitions.json"
-    - "imageDetail.json"
-    - "taskdef.json"
+    - "*"
