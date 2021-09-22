@@ -30,7 +30,7 @@ phases:
       - ls -l
 artifacts:
   files:
-    - 'artifacts.json'
+    - 'appspec.yaml'
     - 'imagedefinitions.json'
     - 'imageDetail.json'
     - 'taskdef.json'
