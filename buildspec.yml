@@ -30,6 +30,4 @@ phases:
       - ls -l
 artifacts:
   files:
-    − "appspec.yml"
-    - "imagedefinitions.json"
-    - "imageDetail.json"
+    − appspec.yml
