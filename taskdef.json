@@ -14,7 +14,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/ecs/spring-session-redis",
+          "awslogs-group": "/ecs/test_codepipeline",
           "awslogs-region": "ap-northeast-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -29,5 +29,5 @@
   "networkMode": "awsvpc",
   "cpu": "256",
   "memory": "512",
-  "family": "spring-session-redis"
+  "family": "test_codepipeline"
 }
