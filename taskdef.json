@@ -2,7 +2,7 @@
   "executionRoleArn": "arn:aws:iam::181804339651:role/MyEcsTaskRole",
   "containerDefinitions": [
     {
-      "name": "spring-session-redis",
+      "name": "test_codepipeline",
       "image": "<IMAGE1_NAME>",
       "portMappings": [
         {
